@@ -1,6 +1,7 @@
 ##SimpleMediaPlayer
 ###JavaFX内嵌多媒体播放器  
   
+  <img src="https://github.com/Al-assad/Simple-Media-Player/blob/master/sample.PNG" width="500" whight="auto">
   
 ###环境和功能说明
 使用JavaFX MediaPlayer作为内核开发，提供完整的多媒体播放控制栏和全屏播放功能；  
