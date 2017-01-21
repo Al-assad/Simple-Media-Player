@@ -2,6 +2,7 @@
 ###JavaFX内嵌多媒体播放器  
   
   
+ <img src="https://github.com/Al-assad/Simple-Media-Player/blob/master/sample.PNG" >
 ###环境和功能说明
 使用JavaFX MediaPlayer作为内核开发，提供完整的多媒体播放控制栏和全屏播放功能；  
 作为JavaFX内嵌节点使用，使用JavaFX 8版本；
