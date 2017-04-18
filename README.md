@@ -1,10 +1,10 @@
-##SimpleMediaPlayer
-###JavaFX内嵌多媒体播放器  
+## SimpleMediaPlayer  
+### JavaFX内嵌多媒体播放器  
   
   
  <img src="https://github.com/Al-assad/Simple-Media-Player/blob/master/sample.PNG" width="500" height="auto">
 
-###环境和功能说明
+### 环境和功能说明
 使用JavaFX MediaPlayer作为内核开发，提供完整的多媒体播放控制栏和全屏播放功能；  
 作为JavaFX内嵌节点使用，使用JavaFX 8版本；
 主要提供的视频操作功能：
@@ -15,7 +15,7 @@
 * 弹出窗口播放；
 
 
-###支持的多媒体格式
+### 支持的多媒体格式
 **音频**  
 * MP3；  
 * 包含非压缩PCM的AIFF；  
@@ -26,7 +26,7 @@
 * 使用H.264/AVC视频压缩的MPEG-4;  
 
 
-###调用方式
+### 调用方式
 1. 内嵌式节点调用：  
 >Sring mediaURL = "sample.mp4";  
 SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.newInstance(utl);  //默认大小500*400；  
@@ -39,7 +39,7 @@ simpleMediaPlayer.setSize(600,400);           //修改内嵌播放器尺寸
  //弹出式调用暂不支持通过实例setSize
   
      
-###TODO
+### TODO
 * 增加CSS叠层样式表修改UI风格接口；  
 * 增加其他的多媒体播放控制功能;  
 * 增加播放列表，列表信息功能；  
