@@ -28,19 +28,19 @@
 
 ### 调用方式
 1. 内嵌式节点调用：  
-`Sring mediaURL = "sample.mp4";
-SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.newInstance(utl);  //默认大小500*400;
+>Sring mediaURL = "sample.mp4";  
+SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.newInstance(utl);  //默认大小500*400;  
 SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.newInstance(utl，800,600);  
-//指定尺寸调用，参数：String URl，int width，int height
-simpleMediaPlayer.setSize(600,400);           //修改内嵌播放器尺寸
-//返回的SimpleMediaPlayer是一个JavaFX Node对象，可以像正常的JavaFX控件使用
-`
+//指定尺寸调用，参数：String URl，int width，int height  
+simpleMediaPlayer.setSize(600,400);           //修改内嵌播放器尺寸  
+//返回的SimpleMediaPlayer是一个JavaFX Node对象，可以像正常的JavaFX控件使用  
+
 2. 弹出式窗口调用：
-`SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.popup(utl);  //默认大小500*400;
- SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.popup(utl，800,600);
- //指定尺寸调用，参数：String URl，int width，int height
- //弹出式调用暂不支持通过实例setSize
- `
+>SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.popup(utl);  //默认大小500*400;  
+ SimpleMediaPlayer simpleMediaPlayer = SimpleMediaPlayer.popup(utl，800,600);  
+ //指定尺寸调用，参数：String URl，int width，int height  
+ //弹出式调用暂不支持通过实例setSize  
+ 
   
      
 
